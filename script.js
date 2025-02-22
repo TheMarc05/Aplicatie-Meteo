@@ -4,6 +4,8 @@ const API_FORECAST_URL = "https://api.open-meteo.com/v1/forecast";
 const cityForm = document.querySelector("#cityForm");
 const locationBtn = document.querySelector("#locationBtn");
 
+//test
+
 cityForm.addEventListener("submit", onCityFormSubmit);
 locationBtn.addEventListener("click", onLocationBtnClick);
 
